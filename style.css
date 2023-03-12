@@ -1,0 +1,99 @@
+html{
+    background-image: url('https://wallpaperaccess.com/full/3497712.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Monospace;
+}
+
+.login{
+    background-color: white;
+    opacity: calc(0.6);
+    height: 300px;
+    width: 350px;
+    margin: 10% auto;
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px white,
+                0 0 10px white,
+                0 0 15px white,
+                0 0 20px white;
+}           
+
+.Login_input{
+    font-family: Monospace;
+    font-size: 25px;
+    font: bold;
+    border: none;
+    margin: 15px 0;
+    padding: 15px 0;
+    width: 350px;
+    color: black;
+    opacity: calc(1);
+    z-index: 2;
+}
+
+.Login_input::-webkit-input-placeholder{
+    font-family: Monospace;
+
+}
+
+
+
+.Login_input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-family: monospace;
+    opacity: 1; /* Firefox */
+}
+
+.Login_input:-moz-placeholder { 
+    font-family: Monospace;
+  }
+
+p,
+.Login_mostra{
+    font-size: 15px;
+    float: right;
+    font: bold;
+    margin-top: 0%;
+}
+
+.Login_button{
+    font: bold;
+    font-size: 30px;
+    border: none;
+    float: right;
+    margin-top: 5px;
+    margin-left: 150px;
+    color: black;
+}
+
+h1{
+    font-family: monospace;
+    margin-top: 0%;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+}
+
+.no_op{
+    position: relative;
+
+}
+.icone{
+    bottom: -20px;
+    left: -20px;
+    height: 10%;
+    position: fixed;
+}
+
+ul{
+    list-style-type: none;
+    display: inline;
+}
+li{
+    display: inline;
+}
+
+.icon{
+    filter: invert(1);
+    height: 30px;
+}
